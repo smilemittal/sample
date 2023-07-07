@@ -1,0 +1,290 @@
+/*form builder flow form css*/
+
+.theme-form-builder-sidebar,
+.theme-form-settings-sidebar {
+    width: 480px !important;
+    box-shadow: 0px 3px 6px 4px #161616;
+}
+
+.theme-form-builder {
+    width: 100% !important;
+}
+
+.theme-formbuilder-title {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+.theme-formbuilder-title:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.closedMenu {
+    width: 0 !important;
+    display: none !important;
+}
+
+.closedMenu {
+    width: 0 !important;
+}
+
+.cMenu svg,
+.oMenu svg,
+.ooMenu svg,
+.ccMenu svg {
+    width: 30px !important;
+    height: 30px !important;
+    fill: white !important;
+}
+
+.cMenu svg,
+.ccMenu svg {
+    transform: rotate(180deg);
+}
+
+.sideMenuClose,
+.sideMenuOpen {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.sideMenuClose svg,
+.sideMenuOpen svg {
+    fill: #1ae5ae !important;
+}
+
+.themeTypeForm {
+    height: 700px !important;
+}
+
+.theme-form-builder-sidebar,
+.theme-form-settings-sidebar {
+    height: 800px !important;
+}
+
+.themeTypeFormView {
+    height: 950px !important;
+    border-radius: 10px !important;
+}
+
+.formBtn svg {
+    fill: white !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.themeTypeformAction ul li {
+    height: fit-content !important;
+    border-radius: 16px 16px 0 0;
+}
+
+.themeTypeformAction ul li:last-child {
+    border-radius: 16px;
+}
+
+.themeTypeformAction div.absolute {
+    background-color: transparent !important;
+}
+
+.themeTypeformAction button,
+.themeTypeformAction button:focus {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.themeDashIcon svg path {
+    fill: white;
+}
+
+.themeAnimForm {
+    animation: bottomToTop .6s linear;
+}
+
+.themeDesignMenu ul:not(.themeDesignMenu .themeDesignTabs ul) {
+    padding: 10px;
+    padding-bottom: 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.themeDesignMenu .themeDesignTabs ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.themeDesignMenu ul li div {
+    width: 100% !important;
+    background-color: #343434;
+}
+
+
+.themeDesignMenu ul li div.bg-blue-600,
+.themeDesignMenu ul li div:hover {
+    background-color: #f59e0b;
+    color: white;
+}
+
+@keyframes bottomToTop {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.themeFormOverlay,
+.themeOverlay {
+    background-color: #000000e7;
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.themeFormBg {
+    background-color: #000000 !important;
+    background-image: url('./../img/large.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.themeFormOverlay input {
+    background-color: #2020209f !important;
+}
+
+.themeFormSubmitBtn svg {
+    height: 18px !important;
+    width: 18px !important;
+    fill: white !important;
+    margin-left: 8px !important;
+}
+
+.activeForm {
+    background-color: #1ae5ae !important;
+}
+
+
+/* .themeFormBlock {
+    background-color: #000000 !important;
+    background-image: url('./../img/large.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+} */
+
+/*css for layouts*/
+
+#content:checked:checked~.content,
+#contentright:checked:checked~.contentright,
+#contentleft:checked:checked~.contentleft,
+#bodyright:checked:checked~.bodyright,
+#bodyleft:checked:checked~.bodyleft,
+#bodyfull:checked:checked~.bodyfull {
+    border-color: #f59e0b;
+}
+
+#content:checked:checked~.content .contentspan,
+#contentright:checked:checked~.contentright .contentspan,
+#contentleft:checked:checked~.contentleft .contentspan,
+#bodyright:checked:checked~.bodyright .contentspan,
+#bodyleft:checked:checked~.bodyleft .contentspan,
+#bodyfull:checked:checked~.bodyfull .contentspan {
+    background-color: #f59e0b;
+}
+
+#bodyfull:checked:checked~.bodyfull .contentspanline {
+    background-color: #333333;
+}
+
+.vue-flow {
+    background: #333333;
+}
+
+.vue-flow__controls {
+    width: 130px;
+    height: 36px;
+    left: 10px;
+    bottom: 10px;
+    background: #161616;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.vue-flow__controls button {
+    width: 26px;
+    height: 26px;
+    background-color: #f59e0b;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.vue-flow__controls button:hover {
+    background-color: #aa6f08;
+}
+
+.vue-flow__controls button svg {
+    width: 14px;
+    height: 14px;
+}
+
+.vue-flow__controls button svg path {
+    fill: white;
+}
+
+.vue-flow__node {
+    border: 2px solid gray !important;
+    width: 200px !important;
+    height: 60px !important;
+}
+.vue-flow__node .vue-flow__handle {
+    border: 2px solid gray !important;
+    height: 16px !important;
+    width: 16px !important;
+}
+
+.vue-flow__node.selected {
+    border: 2px solid #f59e0b !important;
+}
+
+.vue-flow__node.selected .vue-flow__handle {
+    background-color: #f59e0b !important;
+    border-color: #aa6f08 !important ;
+}
+
+.vue-flow__handle-bottom {
+    bottom: -8px !important;
+}
+.vue-flow__handle-top{
+    top: -8px !important;
+}
+
+.themeGallery{
+    height: 600px;
+    overflow-y: auto;
+    padding-right: 12px;
+}
+
+.themeRadio {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 !important;
+    left: 0 !important;
+    opacity: 0 !important;
+}

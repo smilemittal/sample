@@ -1,0 +1,443 @@
+/*all responsive css here default*/
+
+/*sidebar menu*/
+@media only screen and (max-width:1081px) {
+    .themeXmeLogo {
+        position: absolute !important;
+        top: 0;
+        z-index: 10;
+        background: #232222;
+        width: 100%;
+    }
+
+    .themeMenuList {
+        overflow-y: auto;
+        height: 100vh !important;
+        padding-top: 120px !important;
+    }
+
+    .sideBarMenu {
+        padding-bottom: 40px !important;
+    }
+
+    #sideMenu.themeSideMenu {
+        max-height: 100% !important;
+        min-height: 100% !important;
+        border-radius: 0 !important;
+    }
+}
+
+/*dashboard page responsive*/
+@media only screen and (min-width:1280px) and (max-width:1480px) {
+    .openedSidebar .themeDashCard {
+        grid-column: span 5 / span 5 !important;
+    }
+}
+
+@media only screen and (min-width:1480px) and (max-width:1700px) {
+
+    .openedSidebar .themeDashCard.themeDashCounter,
+    .openedSidebar .themeDashCard.themeChartDash,
+    .openedSidebar .themeDashCard.themeLibraryCard,
+    .openedSidebar .themeDashCard.themeGroupCard {
+        grid-column: span 3 / span 3 !important;
+    }
+
+    .openedSidebar .themeDashCard.themeChartModules,
+    .openedSidebar .themeDashCard.themeChartMember,
+    .openedSidebar .themeDashCard.themeMemberInvitesCard,
+    .openedSidebar .themeDashCard.themeActivityLogs {
+        grid-column: span 4 / span 4 !important;
+    }
+
+    .openedSidebar .themeDashCard.themeChartXme,
+    .openedSidebar .themeDashCard.themeChartDevelop {
+        grid-column: span 5 / span 5 !important;
+    }
+
+    .openedSidebar .themeDashCard.themeLogoIddr {
+        grid-column: span 6 / span 6 !important;
+    }
+
+    .openedSidebar .themeDashCard.themeDashCounter.themeDashModule {
+        height: 20rem !important;
+    }
+}
+
+@media only screen and (max-width:1480px) {
+    .themeDashCard .text-base {
+        font-size: 14px !important;
+    }
+
+    .themeDashCard .text-xs {
+        font-size: 10px !important;
+    }
+
+    .themeIddrLogo:before {
+        height: 80px !important;
+        width: 80px !important;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .themeMyTraining {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .trainingCard {
+        margin-top: 0 !important;
+        margin-left: 16px !important;
+    }
+}
+
+.themeIddrLogo {
+    width: 500px !important;
+}
+
+@media only screen and (min-width:1140px) and (max-width:1480px) {
+    .themeIddrLogo:before {
+        height: 90px !important;
+        width: 90px !important;
+        left: 40% !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .themeIddrLogo:before {
+        height: 80px;
+        width: 80px;
+        left: 45%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    .themeIddrLogo {
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (min-width:700px) {
+    .themeLibraryCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:991px) {
+    .themeLibraryCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .themeLibraryCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .themeAssetUpdate {
+        width: 850px !important;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .themeLibraryCards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media only screen and (min-width:1700px) {
+    .themeLibraryCards {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+
+
+/*Library page when sidebar opened*/
+
+@media only screen and (max-width:576px) {
+    .openedSidebar .themeLibraryCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:1081px) and (max-width:1200px) {
+    .openedSidebar .themeLibraryCards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:1700px) and (max-width:1790px) {
+    .openedSidebar .themeLibraryCards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+
+/*Xme area page responsive*/
+@media only screen and (max-width:700px) {
+    .xmeAreaCards {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .xmeAreaCards {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:991px) {
+    .xmeAreaCards {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:1430px) {
+    .xmeAreaCards {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .openedSidebar .xmeAreaCards {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:1720px) {
+    .xmeAreaCards {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+/*If sidebar opened than cards*/
+@media only screen and (min-width:1081px) and (max-width:1280px) {
+    .openedSidebar .xmeAreaCards {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .openedSidebar .themeDirectory{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width:1280px) and (max-width:1599px) {
+    .openedSidebar .xmeAreaCards {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .openedSidebar .themeDirectory{
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:1600px) and (max-width: 1980px) {
+    .openedSidebar .xmeAreaCards {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+@media only screen and (min-width:1981px) {
+    .openedSidebar .xmeAreaCards {
+        grid-template-columns: repeat(5, 1fr) !important;
+    }
+}
+
+
+
+/*table filters responsive*/
+@media only screen and (max-width:320px) {
+    .mobileFilterIndentify {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .mobileFilterIndentify button,
+    .mobileFilterIndentify a,
+    .mobileFilterIndentify select {
+        min-width: 46% !important;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:576px) {
+    .mobileFilterIndentify {
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto !important;
+        gap: 16px;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .multiplyMeTableActions {
+        width: 100% !important;
+    }
+
+    /*dropdown in mobile devices*/
+
+    table .theme-dropdown-menu,
+    table .dropdown-menu{
+        width: 174px !important;
+    }
+
+    table .theme-dropdown-menu ul li,
+    table .theme-dropdown-menu ul li a,
+    table .dropdown-menu ul li,
+    table .dropdown-menu ul li a{
+        font-size: 10px !important;
+    }
+
+    table .theme-dropdown-menu ul li a,
+    table .dropdown-menu ul li a{
+        font-size: 10px !important;
+        padding: 8px 10px !important;
+    }
+
+    table .theme-dropdown-menu ul li svg,
+    table .dropdown-menu ul li svg{
+        width: 12px !important;
+        height: 12px !important;
+    }
+
+    table .theme-dropdown-menu ul li:first-child,
+    table .dropdown-menu ul li:first-child {
+        padding: 8px 10px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .desktopFilters {
+        display: none !important;
+    }
+
+    .filterBtn {
+        display: block !important;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+    .searchTable {
+        width: 100% !important;
+    }
+
+    .searchTable input {
+        width: 100% !important;
+    }
+
+    .mobileInputSpace {
+        margin-top: 16px !important;
+    }
+
+    .inputMobileSpan {
+        grid-column: span 1/ span 1;
+    }
+
+    .mobileFilters {
+        width: 100% !important;
+    }
+
+    .multiplyMeTableActions {
+        width: 100% !important;
+    }
+
+    .themeNotificationAction button{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .themeNotificationAction button svg{
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media only screen and (min-width:577px) {
+    .mobileFilters {
+        display: none !important;
+    }
+}
+
+
+/*Library drag drop disable enable*/
+.themeLibraryCards.libraryMobile {
+    display: none;
+}
+
+.groupsMobile {
+    display: none;
+}
+
+.groupsDesktop {
+    display: table !important;
+}
+
+@media only screen and (max-width:600px) {
+    .libraryMobileCards {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 16px !important;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .libraryMobileCards {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .libraryMobile {
+        display: grid !important;
+    }
+
+    .themeLibraryCards.libraryDesktop {
+        display: none;
+    }
+
+    .footerLinks {
+        text-align: center !important;
+        padding: 20px 30px !important;
+    }
+
+    .footerLinksSpan {
+        justify-content: center !important;
+    }
+
+    .groupsMobile {
+        display: table !important;
+    }
+
+    .groupsDesktop {
+        display: none !important;
+    }
+}
+
+
+/*Comments section responsive*/
+@media only screen and (max-width:300px) {
+    .commentImages .commentImgs {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .commentUser {
+        width: 100% !important;
+    }
+
+    .commentImgs {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}

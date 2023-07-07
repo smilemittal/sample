@@ -1,0 +1,67 @@
+[
+  {
+    "name": "lang.labels.basic_options",
+    "features": [
+      {
+        "name": "lang.labels.total_users",
+        "key": "total_users",
+        "type": "numeric",
+        "min": 1,
+        "max": 1000,
+        "chunk": 5,
+        "per_chunk_price": 20,
+        "value": 5,
+        "decimal_point": 0,
+        "icon": "TeamMembers"
+      },
+      {
+        "name": "lang.labels.company_admin",
+        "key": "company_admin",
+        "type": "numeric",
+        "min": 1,
+        "max": 1000,
+        "chunk": 5,
+        "per_chunk_price": 20,
+        "value": 5,
+        "decimal_point": 0,
+        "icon": "TeamMembers"
+      },
+      {
+        "name": "lang.labels.company_sub_admin",
+        "key": "company_sub_admin",
+        "type": "numeric",
+        "min": 1,
+        "max": 1000,
+        "chunk": 5,
+        "per_chunk_price": 20,
+        "value": 5,
+        "decimal_point": 0,
+        "icon": "TeamMembers"
+      },
+      {
+        "name": "lang.labels.members",
+        "key": "members",
+        "type": "numeric",
+        "min": 1,
+        "max": 1000,
+        "chunk": 5,
+        "per_chunk_price": 20,
+        "value": 5,
+        "decimal_point": 0,
+        "icon": "TeamMembers"
+      },
+      {
+        "name": "lang.labels.disk_storage_in_mb",
+        "key": "disk_storage",
+        "type": "numeric",
+        "min": 2500,
+        "max": 100000,
+        "chunk": 2500,
+        "per_chunk_price": 2,
+        "value": 2500,
+        "decimal_point": 2,
+        "icon": "DiskStorage"
+      }
+    ]
+  }
+]

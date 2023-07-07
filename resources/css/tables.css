@@ -1,0 +1,242 @@
+/*tables css*/
+
+.themeMainContent {
+    overflow-x: hidden;
+}
+
+/*tables checkbox*/
+.tableCheck,
+.tableMenu{
+    width: 50px !important;
+}
+
+.tableMultiActions{
+    width: 5% !important;
+}
+
+.tableTagImages{
+    width: fit-content !important;
+}
+
+/* width */
+.themeOverflowCustom::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+.themeOverflowCustom::-webkit-scrollbar-track {
+    background-color: #3f3f3f;
+}
+
+/* Handle */
+.themeOverflowCustom::-webkit-scrollbar-thumb {
+    background: #161616;
+}
+
+/* Handle on hover */
+.themeOverflowCustom::-webkit-scrollbar-thumb:hover {
+    background: #030303;
+}
+
+.themeActionMenu{
+    width: 100px !important;
+}
+
+@media only screen and (max-width:991px) {
+    .themeOverflowTable {
+        overflow-x: auto;
+    }
+
+    .themeTableCompleted{
+        min-width: 991px !important;
+    }
+
+    .themeTableLearning{
+        min-width: 991px !important;
+    }
+    .themeTableGroups{
+        width: 1000px !important;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .themeMemberOverflowTable {
+        overflow-x: auto !important;
+    }
+
+    .themeTableMember {
+        width: 1120px !important;
+    }
+
+    .themeTableDevelop{
+        min-width: 1000px !important;
+    }
+
+    .themeTableLearningPath{
+        min-width: 1000px !important;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .themeTableCompany {
+        width: 826px !important;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .themeTableMemberInvite{
+        width: 780px !important;
+    }
+    .themeTableTemplates{
+        min-width: 670px !important;
+    }
+    .themeTablePlans{
+        width: 740px !important;
+    }
+    .themeTablePathModules{
+        width: 700px !important;
+    }
+}
+
+/*If sidebar is opened*/
+@media only screen and (min-width:1081px) {
+    .openedSidebar .themeTableMember {
+        min-width: 1200px !important;
+    }
+
+    .openedSidebar .themeMemberOverflowTable {
+        overflow-x: auto !important;
+    }
+
+    .openedSidebar .themeTableManageForms {
+        min-width: 1380px !important;
+    }
+
+    .openedSidebar .themeTableReviewArea{
+        min-width: 1290px !important;
+    }
+
+    .openedSidebar .themeTablePlans{
+        min-width: 1100px !important;
+    }
+}
+
+@media only screen and (max-width:1081px) {
+    .themeTablePathMembers{
+        min-width: 1000px !important;
+    }
+}
+
+@media only screen and (min-width:1081px) and (max-width:1200px) {
+    .openedSidebar .themeTableDevelop{
+        min-width: 1000px !important;
+    }
+
+    .openedSidebar .themeTablePathMembers{
+        min-width: 1000px !important;
+    }
+}
+
+/*Company name table*/
+.themeColCheckbox {
+    width: 120px !important;
+}
+
+.tableImage {
+    width: 100px !important;
+}
+
+.tableCompanyName {
+    width: 250px !important;
+}
+
+.tableContact {
+    width: 200px !important;
+}
+
+.tableCreatedAt {
+    width: 200px !important;
+}
+
+
+/*Member table design issue*/
+.tableMemberImage {
+    width: 100px !important;
+}
+
+.tableMemberName {
+    width: 200px !important;
+}
+
+.tableMemberEmail {
+    width: 300px !important;
+}
+
+.tableRoleName {
+    width: 250px !important;
+}
+
+/*table manage forms*/
+@media only screen and (max-width:1360px){
+    .themeTableManageForms{
+        min-width: 1400px !important;
+    }
+
+    .themeTableUpcoming{
+        min-width: 1120px !important;
+    }
+
+    .openedSidebar .themeTableGroups{
+        min-width: 1000px !important;
+    }
+
+    .themeTablePlans{
+        width: 1200px !important;
+    }
+}
+.tableTfId{
+    width: 120px !important;
+}
+
+.tableTitle{
+    min-width: auto;
+    max-width: 300px !important;
+}
+
+.tableType,.tableStatus,
+.tableResponse{
+    width: 140px !important;
+}
+
+.themeImageSmall img{
+    width: 100% !important;
+}
+
+/*email template table*/
+.tableSubject{
+    width: 400px !important;
+}
+
+/*trainings table*/
+.tableTrainingTitle{
+    width: 300px !important;
+}
+
+/*xme review area table*/
+@media only screen and (max-width:1410px){
+    .themeTableReviewArea{
+        min-width: 1290px !important;
+    }
+}
+
+@media only screen and (min-width:240px){
+    .themeOverflowCustom{
+        overflow-x: auto !important;
+    }
+}
+
+/*identify table*/
+.tableIdentifySubject{
+    width: fit-content !important;
+    max-width: 400px !important;
+}
